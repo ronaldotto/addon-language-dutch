@@ -26,9 +26,8 @@ return array(
     /*
      * 2.2.0
      */
-    "close_and_lock_ticket"     => "Sluit en lock ticket",
+    "close_and_lock_ticket"     => "Sluit en vergrendel ticket",
     "increase_due_time"         => "Deadline ophogen",
-    "close_and_lock_ticket"     => "Sluit en lock ticket",
     "pause_due_time"            => "Deadline pauzeren",
     "reduce_due_time"           => "Deadline verlagen",
     "set_due_time"              => "Deadline instellen",

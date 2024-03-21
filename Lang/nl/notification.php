@@ -9,11 +9,8 @@ return array(
     "new_reply_text"        => "Een nieuw antwoord is geplaatst door :name op ticket #:item.",
 
     "failed_logins"         => "Misluke Operator Logins",
-
     "operator_login"        => "Operator aangemeld",
     "operator_login_text"   => ":name is ingelogd op het operatorpanel.",
-
-    "failed_logins"         => "Misluke operator logins",
     "new_comments"          => "Nieuwe reacties",
 
     /*

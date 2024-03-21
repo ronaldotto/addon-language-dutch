@@ -567,4 +567,39 @@ return array(
      */
     "block_user_desc"           => "The user will be unable to open any further tickets, and the ticket moved to the trash.",
 
+    /*
+     * 4.1.0
+     */
+    "ticket_format_desc"        => "Kan alfanumerieke tekens en speciale tekens bevatten <code> -_. +! *, </code> <br /> De volgende variabelen kunnen ook worden gebruikt: %S voor een volgnummer | %N voor een willekeurig getal | %L voor een willekeurige letter <br /> Gebruik {nummer} om <strong> alleen </strong> te herhalen na %N of %L, bijv. %N{4} staat gelijk aan 4 willekeurige getallen, %L{3} staat gelijk aan 3 willekeurige letters <br /> Het volgende <a href = 'http: //php.net/manual/en/function.date.php' target = '_ blank'> PHP-datum </a> Parameters voorafgegaan door %Y, y, m, d, j, g, G, h, H, i, s",
+    "append_ip_address_api_desc" => "Append the user's IP address to the end of their ticket messages (requires user_ip_address data to be provided).",
+    "check_spam"                => "Check Spam Rules",
+    "check_spam_api_desc"       => "Block messages which match spam rules.",
+    "enable_throttling"         => "Enable Throttling",
+    "enable_throttling_api_desc" => "Limit the number of messages user's can post within a time frame. See <a href='https://docs.supportpal.com/current/App+Configuration#Throttling' target='_blank'>Throttling configuration</a> for more details on how to adjust the limits.",
+    "captcha_desc"              => "Wanneer de Captcha zich laat zien bij nieuwe gebruikers die een nieuwe ticket openen",
+
+    /*
+     * 5.0.0
+     */
+    "also_viewing"              => "<strong>:name</strong> bekijkt dit ticket ook.",
+    "mark_as_read"              => "Mark as Read",
+    "mark_as_unread"            => "Mark as Unread",
+    "sla_targets"               => "SLA Target|SLA Targets",
+    "sla_targets_desc"          => "Set target times that a ticket must be responded to by and resolved by per priority. The time will be counted only during business hours based on the schedule(s) chosen, decimal values can be used. Leave value blank to not set a target for that priority.",
+    "first_reply_time"          => "First Reply Time",
+    "next_reply_time"           => "Next Reply Time",
+    "resolution_time"           => "SLA oplostijden",
+    "reply_due_in"              => "Reply due :time",
+    "resolve_in"                => "Resolve :time",
+    "paused_ago"                => "Paused :time",
+    "reply_due_time"            => "Reply due time",
+    "resolution_due_time"       => "Resolution due time",
+    "set_reply_due_time"        => "Set reply due time",
+    "set_resolution_due_time"   => "Set resolution due time",
+
+    /*
+     * 5.2.0
+     */
+    "block_user_desc"           => "The user will be unable to open any further tickets, and the ticket moved to the trash.",
+
 );

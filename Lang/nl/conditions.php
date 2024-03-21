@@ -85,8 +85,8 @@ return array(
      * 2.5.0
      */
     "user_email_confirmed"              => "E-mail adres gebruiker bevestigd",
-
     /*
+
      * 3.0.0
      */
     "user_2fa_enabled"                  => "Gebruiker heeft tweefactorauthenticatie ingeschakeld ",
@@ -116,6 +116,6 @@ return array(
     /*
      * 5.0.0
      */
-    "user_email_verified"               => "User email verified",
-    "ticket_has_followup"               => "Ticket has follow up",
+    "user_email_verified"               => "E-mail adres gebruiker bevestigd",
+    "ticket_has_followup"               => "Ticket heeft opvolging",
 );
