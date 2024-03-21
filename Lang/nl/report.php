@@ -3,9 +3,27 @@
 return array(
 
     "report"                            => "Rapport|Rapporten",
-
     "filtering"                         => "Filtering",
-
+    "dashboard"                 => "Dashboard",
+    "tickets_opened"            => "Tickets geopend",
+    "ticket_messages"           => "Ticket berichten",
+    "confirmed_users"           => "Bevestigde Gebruikers",
+    "total_users"               => "Totaal Gebruikers",
+    "daily_stats"               => "Dagelijkse Statistieken",
+    "all_time"                  => "Altijd",
+    "specific_range"            => "Specifieke periode",
+    "filtering"                 => "Filtering",
+    "chart"                     => "Grafiek",
+    "table"                     => "Tabel",
+    "pie"                       => "Taartdiagram",
+    "bar"                       => "Balken",
+    "column"                    => "Kolommen",
+    "histogram"                 => "Histogram",
+    "line"                      => "Lijn",
+    "area"                      => "Vlak",
+    "stacked"                   => "Gestapeld",
+    "stepped"                   => "Getrapt",
+    "geo"                       => "Geo",
     /*
      * 5.0.0
      */

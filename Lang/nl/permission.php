@@ -120,8 +120,8 @@ return array(
     /*
      * 4.0.0
      */
-    "addon"             => "View and Manage Add-ons",
-    "system_health"     => "View System Health",
+    "addon"             => "Bekijk en beheer Add-ons",
+    "system_health"     => "Bekijk systeemgezondheid",
 
     /*
      * 4.2.0
