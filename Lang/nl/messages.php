@@ -154,4 +154,24 @@ return array(
     "popup_blocked"         => "Je browser blokkeert pop-upvensters. Schakel pop-ups en omleidingen op deze website in om de voorbeeldfunctie te gebruiken.",
     "error_editing_message" => "Er is een fout opgetreden bij het bewerken van dit bericht.",
 
+<<<<<<< Updated upstream
+=======
+    /*
+     * 4.1.1
+     */
+    "brand_not_enabled"     => "This action cannot be performed as the brand is not enabled.",
+    "cannot_reply_to_internal" => "A user cannot reply to an internal ticket.",
+
+    /*
+     * 4.3.0
+     */
+    "show_all_results"      => "Toon alle resultaten &raquo;",
+
+    /*
+     * 5.0.0
+     */
+    "lock_timeout"          => "Time-out vergrendeling",
+    "lock_timeout_desc"     => "De server is momenteel bezig met het verwerken van andere verzoeken. Probeer het opnieuw.",
+
+>>>>>>> Stashed changes
 );

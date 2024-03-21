@@ -125,4 +125,21 @@ return array(
     "addon"             => "Bekijk en beheer Add-ons",
     "system_health"     => "Bekijk systeemgezondheid",
 
+<<<<<<< Updated upstream
+=======
+    /*
+     * 4.2.0
+     */
+    "operatorreplytemplate" => "Antwoordsjablonen voor operator beheren",
+
+    /*
+     * 5.0.0
+     */
+    "private_messaging" => "Bekijk privé berichten",
+
+    /*
+     * 5.1.0
+     */
+    "manage_report"     => "Beheer rapporten",
+>>>>>>> Stashed changes
 );

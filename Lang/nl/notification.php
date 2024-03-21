@@ -24,4 +24,13 @@ return array(
      */
     "private_message_text"  => ":name heeft een nieuw privebericht gestuurd <a href=':route'>privebericht</a>.",
 
+<<<<<<< Updated upstream
+=======
+    /*
+     * 4.2.0
+     */
+    "new_mention"           => "Nieuwe vermelding",
+    "new_mention_text"      => ":name vermeldde jou in ticket #<a href=':route'>:number</a>.",
+
+>>>>>>> Stashed changes
 );

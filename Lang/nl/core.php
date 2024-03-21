@@ -591,4 +591,77 @@ return array(
     "browse_image"              => "Een afbeelding zoeken",
     "drop_image"                => "Sleep een afbeelding naar deze locatie",
 
+<<<<<<< Updated upstream
+=======
+/*
+ * 4.2.0
+ */
+    "keyboard_shortcuts"        => "Snelkoppelingen",
+    "enable_keyboard_shortcuts" => "Snelkoppelingen inschakelen",
+    "shortcut_global"           => "Globale snelkoppelingen",
+    "shortcut_toggle"           => "Wissel het dialoogvenster met snelkoppelingen",
+    "shortcut_start_search"     => "Start zoekopdracht",
+    "shortcut_goto_new_ticket"  => "Ga naar de pagina voor het openen van een nieuw ticket",
+    "shortcut_ticket_view"      => "Snelkoppelingen voor ticketweergave",
+    "shortcut_focus_reply"      => "Focus op het antwoordformulier",
+    "shortcut_focus_notes"      => "Focus op het notitieformulier",
+    "shortcut_focus_forward"    => "Focus op het doorstuurformulier",
+    "shortcut_toggle_user_tab"  => "Schakel het tabblad met gebruikersgegevens in de zijbalk in/uit",
+    "shortcut_take_ticket"      => "Neem het ticket over",
+    "shortcut_close_ticket"     => "Sluit het ticket",
+    "shortcut_lock_ticket"      => "Sluit en vergrendel het ticket",
+    "shortcut_unlock_ticket"    => "Ontgrendel het ticket",
+    "shortcut_trash_ticket"     => "Verplaats het ticket naar de prullenbak",
+    "shortcut_block_user"       => "Blokkeer de gebruiker en verplaats het ticket naar de prullenbak",
+    "shortcut_watch_ticket"     => "Volg het ticket",
+    "shortcut_unwatch_ticket"   => "Stop met het volgen van het ticket",
+    "shortcut_merge_ticket"     => "Voeg het ticket samen",
+    "shortcut_unmerge_ticket"   => "Maak het samengevoegde ticket ongedaan",
+    "shortcut_expand_all"       => "Alle berichten uitvouwen",
+    "shortcut_collapse_all"     => "Alle berichten samenvouwen",
+    "shortcut_print_ticket"     => "Ticketdetails en berichten afdrukken"
+
+    /*
+     * 4.3.0
+     */
+    "db_connection_error"       => "Databaseverbindingsfout, controleer :path",
+
+    /*
+     * 5.0.0
+     */
+    "favicon_dark_mode"         => "Donkere modus favicon",
+    "favicon_dark_mode_desc"    => "Als uw favicon alleen is ontworpen voor een lichte achtergrond, stel dan een andere favicon in voor de donkere modus. Dit wordt alleen gebruikt als uw browser en/of besturingssysteem in de donkere modus draait.",
+    "template_mode_system_desc" => "Kiezen voor 'systeem' zal de sjabloonmodus synchroniseren met de lichte of donkere modus, afhankelijk van de thema-instellingen van uw besturingssysteem."
+
+    /*
+     * 5.0.1
+     */
+    "starttls_or_none"          => "STARTTLS / Geen",
+
+    /*
+     * 5.1.0
+     */
+    "email_attempt_at_desc"     => "De e-mail is niet verzonden. Volgende poging over :time.", // :time example, "in 5 mins"
+    "websockets_connection"     => "Web Sockets verbinding",
+    "websockets_not_running"    => "Kan niet verbinden met web socket server.",
+    "search_driver_check"       => "Zoekstuurprogramma",
+    "search_driver_not_working" => "Het geconfigureerde zoekstuurprogramma werkt niet correct.",
+
+    /*
+     * 5.2.0
+     */
+    "temporary_path"            => "Tijdelijke pad",
+    "temporary_path_desc"       => "Het tijdelijke pad wordt gebruikt om bestanden op te slaan tijdens de update. Het systeem tijdelijke pad wordt standaard gebruikt. Het pad moet minimaal 3 GB vrije ruimte hebben.",
+    "background_jobs_desc"      => "Hieronder vindt u een lijst met achtergrondtaken die recentelijk zijn mislukt.",
+    "failed_jobs"               => "Mislukte taken",
+    "horizon_dashboard"         => "Horizon-dashboard",
+    "job"                       => "Taak|Taken",
+    "job_payload"               => "Taakgegevens",
+    "job_exception"             => "Taakuitzondering",
+    "failed_at"                 => "Mislukt op",
+    "queue"                     => "Wachtrij",
+    "exception"                 => "Uitzondering",
+    "data"                      => "Gegevens",
+    "failed_background_jobs"    => "Een of meer <a target='_blank' href=':link'>achtergrondtaken</a> zijn mislukt en vereisen handmatige aandacht.",
+>>>>>>> Stashed changes
 );

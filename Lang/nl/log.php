@@ -194,13 +194,74 @@ return array(
     /*
      * 2.6.0
      */
-    "ticket_followup_set"               => "Nieuwe follow-up ingesteld op ticket  #:rel.",
-    "ticket_followup_updated"           => "Follow-up bijgewerkt op ticket #:rel.",
-    "ticket_followup_deleted"           => "follow-up verwijderd op ticket #:rel.",
+    "ticket_followup_set"               => "Nieuwe opvolging ingesteld op ticket  #:rel.",
+    "ticket_followup_updated"           => "Opvolging bijgewerkt op ticket #:rel.",
+    "ticket_followup_deleted"           => "Opvolging verwijderd op ticket #:rel.",
 
     /*
      * 3.0.0
      */
     "selfservice_article_neutral"       => "Artikel :rel is neutraal beoordeeld.",
 
+<<<<<<< Updated upstream
+=======
+    /*
+     * 4.1.0
+     */
+    "user_merged"                       => "Gebruiker :old_value samengevoegd in gebruiker :rel.",
+    "user_organisation_merged"          => "Gebruikersorganisatie :old_value samengevoegd in gebruikersorganisatie :rel.",
+
+    /*
+     * 4.2.0
+     */
+    "operator_reply_templates_updated"  => ":rel's antwoordsjablonen bijgewerkt.",
+
+    /*
+     * 5.0.0
+     */
+    "addon_activated"                   => "Geactiveerd :item (add-on) :rel.",
+    "addon_deactivated"                 => "Gedeactiveerd :item (add-on) :rel.",
+    "addon_installed"                   => "Geïnstalleerd :item (add-on) :rel.",
+    "addon_uninstalled"                 => "Gedeïnstalleerd :item (add-on) :rel.",
+    "addon_cancelled"                   => "Geannuleerd :item (add-on) :rel.",
+    "addon_updated"                     => "Bijgewerkt :item (add-on) :rel naar versie :new_value.",
+    "ticket_reply_duetime_updated"      => "De antwoorddeadline op ticket #:rel is bijgewerkt naar :new_value.",
+    "ticket_resolve_duetime_updated"    => "De oplosdeadline op ticket #:rel is bijgewerkt naar :new_value.",
+    "ticket_duetime_unset"              => "Deadline van ticket #:rel is verwijderd.",
+    "ticket_reply_duetime_unset"        => "De antwoorddeadline op ticket #:rel is verwijderd.",
+    "ticket_resolve_duetime_unset"      => "De oplosdeadline op ticket #:rel is verwijderd.",
+    "ticket_duetime_paused"             => "Deadline op ticket #:rel is gepauzeerd tot nieuw antwoord van gebruiker.",
+    "ticket_duetime_unpaused"           => "De deadlines op ticket #:rel zijn hervat.",
+    "user_email_verified"               => "Het e-mailadres is geverifieerd.",
+    "marked_email_as_verified"          => "Eigenaarschap van het e-mailadres is namens gebruiker :rel geverifieerd.",
+    "user_invited_to_organisation"      => "Gebruiker :rel is uitgenodigd voor organisatie :extra_rel1.",
+    "user_accepted_organisation_invite" => "Gebruiker :rel heeft de uitnodiging voor organisatie :extra_rel1 geaccepteerd.",
+    "user_additional_email_verified"    => "Een extra e-mailadres (:new_value) is geverifieerd.",
+    "export_generated"                  => "Export :new_value van gebruiker :rel is gegenereerd en opgeslagen op het systeem.",
+    "export_deleted"                    => "Export :old_value van gebruiker :rel is uit het systeem verwijderd.",
+    "user_export_generated"             => "Export :new_value van gebruiker :rel is gegenereerd en opgeslagen op het systeem."
+
+
+    /*
+     * 5.0.2
+     */
+    "personal_reply_templates_updated"  => "Hun antwoordsjablonen bijgewerkt.",
+
+    /*
+     * 5.1.0
+     */
+    "ticket_deleted_attachment"         => "Verwijderde bijlage ':old_value' van ticket #:rel.",
+    "user_added_to_group"               => "Gebruiker :rel toegevoegd aan gebruikersgroep :new_value.",
+    "user_removed_from_group"           => "Gebruiker :rel verwijderd uit gebruikersgroep :old_value.",
+    "operator_added_to_group"           => "Operator :rel toegevoegd aan operatorgroep :new_value.",
+    "operator_removed_from_group"       => "Operator :rel verwijderd uit operatorgroep :old_value.",
+
+    /*
+     * 5.2.0
+     */
+    "background_job_deleted"            => "Verwijderde achtergrondtaak :rel.",
+    "background_job_retried"            => "Opnieuw geprobeerde achtergrondtaak :rel."
+
+
+>>>>>>> Stashed changes
 );

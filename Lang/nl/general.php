@@ -415,4 +415,21 @@ return array(
     "more_information"          => "Meer informatie",
     "details"                   => "Details",
 
+<<<<<<< Updated upstream
+=======
+    /*
+     * 4.1.0
+     */
+    "merge"                     => "Merge",
+
+    /*
+     * 5.0.0
+     */
+    "invited"                   => "Uitgenodigd",
+    "apply"                     => "Toepassen",
+    "opened"                    => "Geopend",
+    "week"                      => "Week|Weken",
+    "quarter"                   => "Kwartaal|Kwartalen",
+
+>>>>>>> Stashed changes
 );

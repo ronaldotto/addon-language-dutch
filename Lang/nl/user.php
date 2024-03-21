@@ -349,4 +349,115 @@ return array(
     "verify_phone_code_error"       => "Code kon niet worden geverifieerd.",
     "logged_in_as"                  => "Ingelogd als :name",
 
+<<<<<<< Updated upstream
+=======
+    /*
+     * 4.1.0
+     */
+    "merge_users"                   => "Merge Users",
+    "merge_user_into"               => "Select user to merge into",
+    "merge_organisations"           => "Merge Organisations",
+    "merge_organisation_into"       => "Select organisation to merge into",
+    "search_for_organisation"       => "Search for organisation...",
+
+    /*
+     * 4.2.0
+     */
+    "reply_template"                => "Reply Template|Reply Templates",
+    "reply_template_desc"           => "Set a personal reply template that prefills the textarea when starting to compose a reply, with the option to customise based on the brand/department of the ticket. The default reply template is used when a reply template for a specific department and/or brand cannot be found.",
+    "operator_reply_template"       => "Operator Reply Template|Operator Reply Templates",
+    "ticket_reply_template_desc"    => "Set the operator's default ticket reply template.",
+    "operator_reply_template_desc"  => "Further reply templates for specific departments and/or brands can be set in the <a href=':route' target='_blank'>Operator Reply Templates</a> section.",
+
+    /*
+     * 5.0.0
+     */
+    "verified"                      => "Verified",
+    "unverified"                    => "Unverified",
+    "unverified_email_desc"         => "User has not verified ownership of this email address.",
+    "unverified_account"            => "Please check your email to verify ownership of this email address.",
+    "changing_email_desc"           => "Als je het e-mailadres wijzigt, moet de gebruiker het eigendom van zijn e-mailadres bevestigen wanneer hij de volgende keer inlogt.",
+    "unregistered_user_desc"        => "Deze account is automatisch gemaakt zonder wachtwoord. Je kunt een bevestigingsmail sturen om een eigen account te laten aanmaken of hieronder een wachtwoord voor in te stellen.",
+    "send_verification_email"       => "Send Verification Email",
+    "mark_as_verified"              => "Mark as Verified",
+    "password_reset_already"        => "Je heeft al bevestigd dat je eigenaar bent van dit e-mailadres inloggen is nu mogelijk.",
+    "verification_email_resent"     => "A new verification email has been sent and should arrive in a few minutes.",
+    "verified_set_password_desc"    => "Thank you for verifying ownership of your email, please enter a password below to finish your account set up.",
+    "thank_you_for_verifying_email" => "Thank you for verifying ownership of your email address.",
+    "organisation_domain_desc"      => "Voer elk domein in dat eigendom is van de organisatie. Gebruikers die zich registreren met een e-mailadres dat tot een van die domeinen behoort, worden automatisch aan de organisatie toegevoegd. We raden aan om te verifiëren dat de gebruiker echt deel uitmaakt van de organisatie als hij niet heeft bevestigd dat hij eigenaar is van zijn e-mailadres.",
+    "resend_verification_email"     => "Resend Verification Email",
+    "updating_email_address"        => "Om de aanpassing van je e-mailadres te voltooien, klik je op de link die is verzonden naar :email om het eigendom van het nieuwe e-mailadres te bevestigen.",
+    "email_verification"            => "Email Verification",
+    "email_verification_already_in_use" => "The email address is already in use by another account.",
+    "verification_link_expired"     => "The verification link may have expired. If your link isn't working for any reason, please request a new one.",
+    "user_invited_to_organisation"  => "The user has been invited to the organisation by email, they must click the link and set up a password to complete their account setup.",
+    "invite_user"                   => "Invite User",
+    "organisation_invite_user"      => "Invite user to organisation",
+    "user_already_in_organisation"  => "The user is already part of an organisation.",
+    "invitations"                   => "Invitation|Invitations",
+    "invite_exists"                 => "The user has already been invited.",
+    "success_join"                  => "You are now a member of the organisation :name.",
+    "error_join"                    => "The invitation code could not be found, or has expired.",
+    "verify_to_view_tickets"        => "Please verify all additional email addresses or remove unverified email addresses under your account profile.",
+
+    /*
+     * 5.2.3
+     */
+    "display_notifications_desc"    => "Het systeem zal waarschuwen wanneer er nieuwe tickets of antwoorden worden aangemaakt, of wanneer andere operators inloggen. Je kunt kiezen tussen bureaubladmeldingen of meldingen in de browser, of deze volledig uitschakelen.",
+
+    /*
+     * 4.1.0
+     */
+    "merge_users"                   => "Merge Users",
+    "merge_user_into"               => "Select user to merge into",
+    "merge_organisations"           => "Merge Organisations",
+    "merge_organisation_into"       => "Select organisation to merge into",
+    "search_for_organisation"       => "Search for organisation...",
+
+    /*
+     * 4.2.0
+     */
+    "reply_template"                => "Reply Template|Reply Templates",
+    "reply_template_desc"           => "Set a personal reply template that prefills the textarea when starting to compose a reply, with the option to customise based on the brand/department of the ticket. The default reply template is used when a reply template for a specific department and/or brand cannot be found.",
+    "operator_reply_template"       => "Operator Reply Template|Operator Reply Templates",
+    "ticket_reply_template_desc"    => "Set the operator's default ticket reply template.",
+    "operator_reply_template_desc"  => "Further reply templates for specific departments and/or brands can be set in the <a href=':route' target='_blank'>Operator Reply Templates</a> section.",
+
+    /*
+     * 5.0.0
+     */
+    "verified"                      => "Geverifieerd",
+    "unverified"                    => "Niet geverifieerd",
+    "unverified_email_desc"         => "De gebruiker heeft het eigendom van dit e-mailadres niet geverifieerd.",
+    "unverified_account"            => "Controleer je e-mail om het eigendom van dit e-mailadres te verifiëren.",
+    "changing_email_desc"           => "Als je het e-mailadres wijzigt, moet de gebruiker het eigendom van zijn e-mailadres bevestigen wanneer hij de volgende keer inlogt.",
+    "unregistered_user_desc"        => "Dit account is automatisch aangemaakt zonder wachtwoord. Je kunt een bevestigingsmail sturen om een eigen account aan te maken of hieronder een wachtwoord instellen.",
+    "send_verification_email"       => "Verzend verificatie-e-mail",
+    "mark_as_verified"              => "Markeer als geverifieerd",
+    "password_reset_already"        => "Je hebt al bevestigd dat je eigenaar bent van dit e-mailadres. Inloggen is nu mogelijk.",
+    "verification_email_resent"     => "Er is een nieuwe verificatie-e-mail verzonden en zou binnen enkele minuten moeten aankomen.",
+    "verified_set_password_desc"    => "Bedankt voor het verifiëren van het eigendom van je e-mailadres. Voer hieronder een wachtwoord in om je accountinstellingen te voltooien.",
+    "thank_you_for_verifying_email" => "Bedankt voor het verifiëren van het eigendom van je e-mailadres.",
+    "organisation_domain_desc"      => "Voer elk domein in dat eigendom is van de organisatie. Gebruikers die zich registreren met een e-mailadres dat tot een van die domeinen behoort, worden automatisch aan de organisatie toegevoegd. We raden aan om te verifiëren dat de gebruiker echt deel uitmaakt van de organisatie als hij niet heeft bevestigd dat hij eigenaar is van zijn e-mailadres.",
+    "resend_verification_email"     => "Verzend verificatie-e-mail opnieuw",
+    "updating_email_address"        => "Om de aanpassing van je e-mailadres te voltooien, klik je op de link die is verzonden naar :email om het eigendom van het nieuwe e-mailadres te bevestigen.",
+    "email_verification"            => "E-mailverificatie",
+    "email_verification_already_in_use" => "Het e-mailadres wordt al gebruikt door een ander account.",
+    "verification_link_expired"     => "De verificatielink is mogelijk verlopen. Als je link om welke reden dan ook niet werkt, vraag dan een nieuwe aan.",
+    "user_invited_to_organisation"  => "De gebruiker is per e-mail uitgenodigd voor de organisatie. Ze moeten op de link klikken en een wachtwoord instellen om hun accountinstellingen te voltooien.",
+    "invite_user"                   => "Gebruiker uitnodigen",
+    "organisation_invite_user"      => "Gebruiker uitnodigen voor organisatie",
+    "user_already_in_organisation"  => "De gebruiker maakt al deel uit van een organisatie.",
+    "invitations"                   => "Uitnodiging|Uitnodigingen",
+    "invite_exists"                 => "De gebruiker is al uitgenodigd.",
+    "success_join"                  => "Je bent nu lid van de organisatie :name.",
+    "error_join"                    => "De uitnodigingscode kon niet worden gevonden of is verlopen.",
+    "verify_to_view_tickets"        => "Verifieer alle extra e-mailadressen of verwijder niet-geverifieerde e-mailadressen in je accountprofiel."
+
+    /*
+     * 5.2.3
+     */
+    "display_notifications_desc"    => "Het systeem zal waarschuwen wanneer er nieuwe tickets of antwoorden worden aangemaakt, of wanneer andere operators inloggen. Je kunt kiezen tussen bureaubladmeldingen of meldingen in de browser, of deze volledig uitschakelen.",
+
+>>>>>>> Stashed changes
 );

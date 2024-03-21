@@ -76,6 +76,19 @@ return array(
     /*
      * 2.6.0
      */
+<<<<<<< Updated upstream
     "clear_due_time"            => "Deadline wissen",
+=======
+    "increase_resolve_due_time" => "Afwikkelingstijd verlengen",
+    "increase_reply_due_time"   => "Antwoordtermijn verlengen",
+    "reduce_resolve_due_time"   => "Verkort afwikkelingstijd",
+    "reduce_reply_due_time"     => "Antwoordtermijn verkorten",
+    "set_resolve_due_time"      => "Oplostijd instellen",
+    "set_reply_due_time"        => "Antwoordtermijn instellen",
+    "clear_resolve_due_time"    => "Leeg oplostijd",
+    "clear_reply_due_time"      => "Leeg antwoordtermijn",
+    "pause_due_times"           => "Pauzeer antwoordtermijn",
+    "unpause_due_times"         => "Maak verlooptijden actief",
+>>>>>>> Stashed changes
 
 );
