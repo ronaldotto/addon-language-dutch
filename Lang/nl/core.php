@@ -90,6 +90,7 @@ return array(
     "smtp_username"             => "SMTP gebruikersnaam",
     "smtp_password"             => "SMTP wachtwoord",
     "ssl"                       => "SSL",
+    "tls"                       => "TLS",
     "email_content"             => "E-mail inhoud",
     "email_content_desc"        => "voer een standaardonderwerp en e-mailinhoud in voor deze sjabloon, de template kan ook in andere talen geschreven worden. Als een template een bepaalde taal niet heeft worden de standaardgegevens gebruikt. ",
     "outgoing"                  => "Uitgaand",
@@ -360,7 +361,7 @@ return array(
      */
     "enable_ssl_warning"        => "Als deze instelling word inschakelt wanneer de pagina niet correct laadt, wordt SupportPal mogelijk onbereikbaar! ",
     "verify_frontend_loads"     => "Controleer of de frontend hieronder correct wordt geladen.",
-    "twig_operator_reply_template"   => "The {{ operator.reply_template|raw }} merge field will be processed at runtime hence the preview may be incorrect.",
+    "twig_operator_signature"   => "Het {{ operator.signature|raw }} samenvoegveld wordt tijdens runtime verwerkt, waardoor het voorbeeld mogelijk onjuist is.",
 
     /*
      * 2.4.1
@@ -590,146 +591,77 @@ return array(
     "browse_image"              => "Een afbeelding zoeken",
     "drop_image"                => "Sleep een afbeelding naar deze locatie",
 
-    /*
-     * 4.2.0
-     */
-    "keyboard_shortcuts"        => "Keyboard Shortcuts",
-    "enable_keyboard_shortcuts" => "Enable keyboard shortcuts",
-    "shortcut_global"           => "Global shortcuts",
-    "shortcut_toggle"           => "Toggle the keyboard shortcuts dialog",
-    "shortcut_start_search"     => "Start search",
-    "shortcut_goto_new_ticket"  => "Go to the open new ticket page",
-    "shortcut_ticket_view"      => "Ticket view shortcuts",
-    "shortcut_focus_reply"      => "Focus the reply form",
-    "shortcut_focus_notes"      => "Focus the notes form",
-    "shortcut_focus_forward"    => "Focus the forward form",
-    "shortcut_toggle_user_tab"  => "Toggle the user details tab in the sidebar",
-    "shortcut_take_ticket"      => "Take ticket",
-    "shortcut_close_ticket"     => "Close ticket",
-    "shortcut_lock_ticket"      => "Close & lock ticket",
-    "shortcut_unlock_ticket"    => "Unlock ticket",
-    "shortcut_trash_ticket"     => "Move ticket to trash",
-    "shortcut_block_user"       => "Block user and move ticket to trash",
-    "shortcut_watch_ticket"     => "Watch ticket",
-    "shortcut_unwatch_ticket"   => "Unwatch ticket",
-    "shortcut_merge_ticket"     => "Merge ticket",
-    "shortcut_unmerge_ticket"   => "Unmerge ticket",
-    "shortcut_expand_all"       => "Expand all messages",
-    "shortcut_collapse_all"     => "Collapse all messages",
-    "shortcut_print_ticket"     => "Print ticket details and messages",
+<<<<<<< Updated upstream
+=======
+/*
+ * 4.2.0
+ */
+    "keyboard_shortcuts"        => "Snelkoppelingen",
+    "enable_keyboard_shortcuts" => "Snelkoppelingen inschakelen",
+    "shortcut_global"           => "Globale snelkoppelingen",
+    "shortcut_toggle"           => "Wissel het dialoogvenster met snelkoppelingen",
+    "shortcut_start_search"     => "Start zoekopdracht",
+    "shortcut_goto_new_ticket"  => "Ga naar de pagina voor het openen van een nieuw ticket",
+    "shortcut_ticket_view"      => "Snelkoppelingen voor ticketweergave",
+    "shortcut_focus_reply"      => "Focus op het antwoordformulier",
+    "shortcut_focus_notes"      => "Focus op het notitieformulier",
+    "shortcut_focus_forward"    => "Focus op het doorstuurformulier",
+    "shortcut_toggle_user_tab"  => "Schakel het tabblad met gebruikersgegevens in de zijbalk in/uit",
+    "shortcut_take_ticket"      => "Neem het ticket over",
+    "shortcut_close_ticket"     => "Sluit het ticket",
+    "shortcut_lock_ticket"      => "Sluit en vergrendel het ticket",
+    "shortcut_unlock_ticket"    => "Ontgrendel het ticket",
+    "shortcut_trash_ticket"     => "Verplaats het ticket naar de prullenbak",
+    "shortcut_block_user"       => "Blokkeer de gebruiker en verplaats het ticket naar de prullenbak",
+    "shortcut_watch_ticket"     => "Volg het ticket",
+    "shortcut_unwatch_ticket"   => "Stop met het volgen van het ticket",
+    "shortcut_merge_ticket"     => "Voeg het ticket samen",
+    "shortcut_unmerge_ticket"   => "Maak het samengevoegde ticket ongedaan",
+    "shortcut_expand_all"       => "Alle berichten uitvouwen",
+    "shortcut_collapse_all"     => "Alle berichten samenvouwen",
+    "shortcut_print_ticket"     => "Ticketdetails en berichten afdrukken"
 
     /*
      * 4.3.0
      */
-    "db_connection_error"       => "Database connection error, please check :path",
+    "db_connection_error"       => "Databaseverbindingsfout, controleer :path",
 
     /*
      * 5.0.0
      */
-    "favicon_dark_mode"         => "Dark Mode Favicon",
-    "favicon_dark_mode_desc"    => "If your favicon was designed to only work on a light background, set a different favicon for dark mode. This will only be used if your browser and/or operating system is running in dark mode.",
-    "template_mode_system_desc" => "Choosing system will synchronise the template mode to light or dark mode depending on your operating system theme settings.",
+    "favicon_dark_mode"         => "Donkere modus favicon",
+    "favicon_dark_mode_desc"    => "Als uw favicon alleen is ontworpen voor een lichte achtergrond, stel dan een andere favicon in voor de donkere modus. Dit wordt alleen gebruikt als uw browser en/of besturingssysteem in de donkere modus draait.",
+    "template_mode_system_desc" => "Kiezen voor 'systeem' zal de sjabloonmodus synchroniseren met de lichte of donkere modus, afhankelijk van de thema-instellingen van uw besturingssysteem."
 
     /*
      * 5.0.1
      */
-    "starttls_or_none"          => "STARTTLS / None",
+    "starttls_or_none"          => "STARTTLS / Geen",
 
     /*
      * 5.1.0
      */
-    "email_attempt_at_desc"     => "The email failed to send. Retrying again :time.", // :time example, "in 5 mins"
-    "websockets_connection"     => "Web Sockets Connection",
-    "websockets_not_running"    => "Unable to connect to web socket server.",
-    "search_driver_check"       => "Search Driver",
-    "search_driver_not_working" => "The configured search driver is not working correctly.",
+    "email_attempt_at_desc"     => "De e-mail is niet verzonden. Volgende poging over :time.", // :time example, "in 5 mins"
+    "websockets_connection"     => "Web Sockets verbinding",
+    "websockets_not_running"    => "Kan niet verbinden met web socket server.",
+    "search_driver_check"       => "Zoekstuurprogramma",
+    "search_driver_not_working" => "Het geconfigureerde zoekstuurprogramma werkt niet correct.",
 
     /*
      * 5.2.0
      */
-    "temporary_path"            => "Temporary Path",
-    "temporary_path_desc"       => "The temporary path is used to store files during the update. The system temporary path is used by default. The path must have at least 3GB of free space.",
-    "background_jobs_desc"      => "Below are a list of background jobs that have failed recently.",
-    "failed_jobs"               => "Failed Jobs",
-    "horizon_dashboard"         => "Horizon Dashboard",
-    "job"                       => "Job|Jobs",
-    "job_payload"               => "Job Payload",
-    "job_exception"             => "Job Exception",
-    "failed_at"                 => "Failed At",
-    "queue"                     => "Queue",
-    "exception"                 => "Exception",
-    "data"                      => "Data",
-    "failed_background_jobs"    => "One or more <a target='_blank' href=':link'>background jobs</a> have failed and require manual attention.",
-
-    /*
-     * 4.2.0
-     */
-    "keyboard_shortcuts"        => "Keyboard Shortcuts",
-    "enable_keyboard_shortcuts" => "Enable keyboard shortcuts",
-    "shortcut_global"           => "Global shortcuts",
-    "shortcut_toggle"           => "Toggle the keyboard shortcuts dialog",
-    "shortcut_start_search"     => "Start search",
-    "shortcut_goto_new_ticket"  => "Go to the open new ticket page",
-    "shortcut_ticket_view"      => "Ticket view shortcuts",
-    "shortcut_focus_reply"      => "Focus the reply form",
-    "shortcut_focus_notes"      => "Focus the notes form",
-    "shortcut_focus_forward"    => "Focus the forward form",
-    "shortcut_toggle_user_tab"  => "Toggle the user details tab in the sidebar",
-    "shortcut_take_ticket"      => "Take ticket",
-    "shortcut_close_ticket"     => "Close ticket",
-    "shortcut_lock_ticket"      => "Close & lock ticket",
-    "shortcut_unlock_ticket"    => "Unlock ticket",
-    "shortcut_trash_ticket"     => "Move ticket to trash",
-    "shortcut_block_user"       => "Block user and move ticket to trash",
-    "shortcut_watch_ticket"     => "Watch ticket",
-    "shortcut_unwatch_ticket"   => "Unwatch ticket",
-    "shortcut_merge_ticket"     => "Merge ticket",
-    "shortcut_unmerge_ticket"   => "Unmerge ticket",
-    "shortcut_expand_all"       => "Expand all messages",
-    "shortcut_collapse_all"     => "Collapse all messages",
-    "shortcut_print_ticket"     => "Print ticket details and messages",
-
-    /*
-     * 4.3.0
-     */
-    "db_connection_error"       => "Database connection error, please check :path",
-
-    /*
-     * 5.0.0
-     */
-    "favicon_dark_mode"         => "Dark Mode Favicon",
-    "favicon_dark_mode_desc"    => "If your favicon was designed to only work on a light background, set a different favicon for dark mode. This will only be used if your browser and/or operating system is running in dark mode.",
-    "template_mode_system_desc" => "Choosing system will synchronise the template mode to light or dark mode depending on your operating system theme settings.",
-
-    /*
-     * 5.0.1
-     */
-    "starttls_or_none"          => "STARTTLS / None",
-
-    /*
-     * 5.1.0
-     */
-    "email_attempt_at_desc"     => "The email failed to send. Retrying again :time.", // :time example, "in 5 mins"
-    "websockets_connection"     => "Web Sockets Connection",
-    "websockets_not_running"    => "Unable to connect to web socket server.",
-    "search_driver_check"       => "Search Driver",
-    "search_driver_not_working" => "The configured search driver is not working correctly.",
-
-    /*
-     * 5.2.0
-     */
-    "temporary_path"            => "Temporary Path",
-    "temporary_path_desc"       => "The temporary path is used to store files during the update. The system temporary path is used by default. The path must have at least 3GB of free space.",
-    "background_jobs_desc"      => "Below are a list of background jobs that have failed recently.",
-    "failed_jobs"               => "Failed Jobs",
-    "horizon_dashboard"         => "Horizon Dashboard",
-    "job"                       => "Job|Jobs",
-    "job_payload"               => "Job Payload",
-    "job_exception"             => "Job Exception",
-    "failed_at"                 => "Failed At",
-    "queue"                     => "Queue",
-    "exception"                 => "Exception",
-    "data"                      => "Data",
-    "failed_background_jobs"    => "One or more <a target='_blank' href=':link'>background jobs</a> have failed and require manual attention.",
-
+    "temporary_path"            => "Tijdelijke pad",
+    "temporary_path_desc"       => "Het tijdelijke pad wordt gebruikt om bestanden op te slaan tijdens de update. Het systeem tijdelijke pad wordt standaard gebruikt. Het pad moet minimaal 3 GB vrije ruimte hebben.",
+    "background_jobs_desc"      => "Hieronder vindt u een lijst met achtergrondtaken die recentelijk zijn mislukt.",
+    "failed_jobs"               => "Mislukte taken",
+    "horizon_dashboard"         => "Horizon-dashboard",
+    "job"                       => "Taak|Taken",
+    "job_payload"               => "Taakgegevens",
+    "job_exception"             => "Taakuitzondering",
+    "failed_at"                 => "Mislukt op",
+    "queue"                     => "Wachtrij",
+    "exception"                 => "Uitzondering",
+    "data"                      => "Gegevens",
+    "failed_background_jobs"    => "Een of meer <a target='_blank' href=':link'>achtergrondtaken</a> zijn mislukt en vereisen handmatige aandacht.",
+>>>>>>> Stashed changes
 );

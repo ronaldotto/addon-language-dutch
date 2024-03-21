@@ -9,6 +9,8 @@ return array(
 
     "save_order"            => "Proberen de nieuwe sortering van de items op te slaan",
 
+    "show_all_results"      => "Toon alle resultaten &raquo;",
+
     "are_you_sure"          => "Weet je het zeker?",
     "yes_im_sure"           => "Ja, ik weet het zeker.",
 
@@ -83,6 +85,7 @@ return array(
 
     "missing_extension"     => "De extensie ontbreekt",
     "php_ldap_missing"      => "De php-ldap extensie is nodig om LDAP autenticatie te gebruiken. Zet deze aan en ververs de pagina.",
+    "php_imap_missing"      => "De php-imap extensie is nodig om e-mail te downloaden. Indien je deze wil gebruiken zet de extensie aan en ververs de pagina.",
 
     /*
      * 2.0.3
@@ -151,6 +154,8 @@ return array(
     "popup_blocked"         => "Je browser blokkeert pop-upvensters. Schakel pop-ups en omleidingen op deze website in om de voorbeeldfunctie te gebruiken.",
     "error_editing_message" => "Er is een fout opgetreden bij het bewerken van dit bericht.",
 
+<<<<<<< Updated upstream
+=======
     /*
      * 4.1.1
      */
@@ -165,7 +170,8 @@ return array(
     /*
      * 5.0.0
      */
-    "lock_timeout"          => "Lock Timeout",
-    "lock_timeout_desc"     => "The server is currently busy processing other requests. Please try again.",
+    "lock_timeout"          => "Time-out vergrendeling",
+    "lock_timeout_desc"     => "De server is momenteel bezig met het verwerken van andere verzoeken. Probeer het opnieuw.",
 
+>>>>>>> Stashed changes
 );

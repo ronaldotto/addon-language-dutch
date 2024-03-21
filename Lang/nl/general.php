@@ -415,6 +415,8 @@ return array(
     "more_information"          => "Meer informatie",
     "details"                   => "Details",
 
+<<<<<<< Updated upstream
+=======
     /*
      * 4.1.0
      */
@@ -423,10 +425,11 @@ return array(
     /*
      * 5.0.0
      */
-    "invited"                   => "Invited",
-    "apply"                     => "Apply",
-    "opened"                    => "Opened",
-    "week"                      => "Week|Weeks",
-    "quarter"                   => "Quarter|Quarters",
+    "invited"                   => "Uitgenodigd",
+    "apply"                     => "Toepassen",
+    "opened"                    => "Geopend",
+    "week"                      => "Week|Weken",
+    "quarter"                   => "Kwartaal|Kwartalen",
 
+>>>>>>> Stashed changes
 );

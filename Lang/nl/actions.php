@@ -26,8 +26,8 @@ return array(
     /*
      * 2.2.0
      */
-    "close_and_lock_ticket"     => "Sluit en vergrendel ticket",
     "increase_due_time"         => "Deadline ophogen",
+    "close_and_lock_ticket"     => "Sluit en lock ticket",
     "pause_due_time"            => "Deadline pauzeren",
     "reduce_due_time"           => "Deadline verlagen",
     "set_due_time"              => "Deadline instellen",
@@ -74,17 +74,21 @@ return array(
     "block_user"                => "Gebruiker blokkeren",
 
     /*
-     * 5.0.0
+     * 2.6.0
      */
-    "increase_resolve_due_time" => "Increase resolution due time",
-    "increase_reply_due_time"   => "Increase reply due time",
-    "reduce_resolve_due_time"   => "Reduce resolution due time",
-    "reduce_reply_due_time"     => "Reduce reply due time",
-    "set_resolve_due_time"      => "Set resolution due time",
-    "set_reply_due_time"        => "Set reply due time",
-    "clear_resolve_due_time"    => "Clear resolution due time",
-    "clear_reply_due_time"      => "Clear reply due time",
-    "pause_due_times"           => "Pause due times",
-    "unpause_due_times"         => "Unpause due times",
+<<<<<<< Updated upstream
+    "clear_due_time"            => "Deadline wissen",
+=======
+    "increase_resolve_due_time" => "Afwikkelingstijd verlengen",
+    "increase_reply_due_time"   => "Antwoordtermijn verlengen",
+    "reduce_resolve_due_time"   => "Verkort afwikkelingstijd",
+    "reduce_reply_due_time"     => "Antwoordtermijn verkorten",
+    "set_resolve_due_time"      => "Oplostijd instellen",
+    "set_reply_due_time"        => "Antwoordtermijn instellen",
+    "clear_resolve_due_time"    => "Leeg oplostijd",
+    "clear_reply_due_time"      => "Leeg antwoordtermijn",
+    "pause_due_times"           => "Pauzeer antwoordtermijn",
+    "unpause_due_times"         => "Maak verlooptijden actief",
+>>>>>>> Stashed changes
 
 );

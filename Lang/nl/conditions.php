@@ -17,7 +17,7 @@ return array(
     "ticket_department"                 => "Ticket afdeling",
     "ticket_due_time"                   => "Ticket deadline",
     "ticket_message_content"            => "Ticket inhoud",
-    "ticket_message_count"              => "Aantal berichten in ticket",
+    "ticket_message_count"              => "Aantal tickets",
     "ticket_priority"                   => "Ticket prioriteit",
     "ticket_sla_plan"                   => "Ticket SLA",
     "ticket_status"                     => "Ticket status",
@@ -85,8 +85,8 @@ return array(
      * 2.5.0
      */
     "user_email_confirmed"              => "E-mail adres gebruiker bevestigd",
-    /*
 
+    /*
      * 3.0.0
      */
     "user_2fa_enabled"                  => "Gebruiker heeft tweefactorauthenticatie ingeschakeld ",
@@ -112,10 +112,4 @@ return array(
      * 4.0.0
      */
     "last_message_content_exc_notes"    => "Last message content (excluding notes)",
-
-    /*
-     * 5.0.0
-     */
-    "user_email_verified"               => "E-mail adres gebruiker bevestigd",
-    "ticket_has_followup"               => "Ticket heeft opvolging",
 );

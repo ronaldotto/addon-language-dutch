@@ -23,6 +23,7 @@ return array(
     "transfer_ownership_desc"       => "Als huidige eigenaar van de organisatie kun je niet worden verwijderd als manager en alleen jij kunt de organisatie verwijderen. je kunt eigendom van de organisatie wel overdragen aan iemand anders. Deze actie kan niet ongedaan worden.",
     "transfer_ownership_operator"   => "Alleen de eigenaar kan de organisatie verwijderen en eruit verwijderen. Gebruik deze optie om eigendom over te zetten naar een andere gebruiker in de organisatie.",
     "start_typing_name"             => "Start met tikken van een naam...",
+    "organisation_add_user"         => "Gebruiker toevoegen aan organisatie",
     "organisation_desc"             => "Elke organisatie kan <strong>managers</strong>hebben welke gebruikers kunnen beheren en andermans tickets kunnen beheren en <strong>gebruikers</strong>, elke tickets kunnen openen maar geen toegang tot andermans tickets hebben.",
     "organisation_operator_desc"    => "Voeg bestaande gebruikers toe aan deze organisatie door op \"Voeg gebruiker toe\" te klikken en te zoeken op hun naam. Let wel op dat het toevoegen van een gebruiker hun link naar een andere organisatie zal verwijderen.",
     "organisation_user_desc"        => "<strong>Manager</strong> - Kan andere gebruikersbeheren en andermans tickets inzien.<br /><strong>Gebruiker</strong> - Kan alleen tickets voor de organisatie inzien en op eigen tickets antwoorden",
@@ -55,6 +56,9 @@ return array(
     "country"                       => "Land",
     "avatar"                        => "Avatar",
     "confirm_password"              => "Bevestig wachtwoord",
+
+    "confirmed"                     => "Bevestigd",
+    "unconfirmed"                   => "Onbevestigd",
 
     "group"                         => "Gebruikersgroep|Gebruikersgroepen",
     "group_members"                 => "Groepsleden",
@@ -133,6 +137,7 @@ return array(
     "two_fa_secret"                 => "tweefactorauthenticatie (2FA) secret",
     "two_fa_secret_desc"            => "Bewaar dit op een veilige plaats, want je hebt dit nodig om het authenticator-account opnieuw aan je telefoon toe te voegen als je de toegang verliest.",
     "display_notifications"         => "Meldingen tonen",
+    "display_notifications_desc"    => "Het systeem zal waarschuwen wanneer er nieuwe tickets of antwoorden worden aangemaakt, of wanneer andere operators inloggen. Je kunt kiezen tussen bureaubladmeldingen of meldingen in de browser, of deze volledig uitschakelen.",
     "desktop_notifications"         => "Desktopmeldingen",
     "browser_notifications"         => "Browsermeldingen",
 
@@ -199,6 +204,11 @@ return array(
     "op_settings_individual_dept"   => "Individueel toegewezen:",
     "op_settings_individual_dept_desc" => "Deze afdelingen komen mee wanneer een operator is toegevoegd aan een bovenstaand afdeling.",
     "also_registered_other_brand"   => "Deze gebruiker is ook geregistreerd bij het merk :brands brand.|Deze gebruiker is ook geregistreerd bij de merken :brands.",
+    "signature"                     => "Handtekening|Handtekeningen",
+    "signature_desc"                => "Maak persoonlijke handtekeningen voor tickets, met de optie om tickets aan de hand van merk/afdeling aan te passen. De standaard ondertekening wordt gebruikt wanneer een ondertekening voor een specifieke afdeling of merk niet gevonden kan worden.",
+    "operator_signature"            => "Operator handtekeningen|Operator handtekeningen",
+    "ticket_signature_desc"         => "Stel de standaard handtekeningen van de operator in.",
+    "operator_signature_desc"       => "Andere handtekeningen voor de specifieke afdelingen en/of merken kunnen worden ingesteld in de <a href=':route' target='_blank'>Operator Signatures</a> sectie.",
     "view_organisation"             => "Bekijk organisatie",
     "new_owner"                     => "Nieuwe eigenaar",
     "operator_role"                 => "Operatorrol|Operatorrollen",
@@ -249,6 +259,7 @@ return array(
     "unlink_account"                => ":record account loskoppelen ",
     "unlink_account_warning"        => "Als je social media account loskoppelt, kan deze niet langer worden gebruikt om rechtstreeks op het account in te loggen .",
     "failed_login"                  => "Misluke login|Misluke logins",
+    "resend_confirmation"           => "<strong><a href=':link'>Klik hier</a></strong> om een nieuwe bevestigingsmail te sturen.",
 
     /*
      * 2.4.0
@@ -265,6 +276,14 @@ return array(
     /*
      * 2.5.0
      */
+    "organisation_domain_desc"      => "Voer elk domein in dat eigendom is van de organisatie. Gebruikers die zich registreren met een e-mailadres dat tot een van die domeinen behoort, worden automatisch aan de organisatie toegevoegd. We raden aan om te verifiëren dat de gebruiker echt deel uitmaakt van de organisatie als hij niet heeft bevestigd dat hij eigenaar is van zijn e-mailadres.",
+    "changing_email_desc"           => "Als je het e-mailadres wijzigt, moet de gebruiker het eigendom van zijn e-mailadres bevestigen wanneer hij de volgende keer inlogt.",
+    "unconfirmed_user_desc"         => "De gebruiker heeft het eigendom van dit e-mailadres niet bevestigd. ",
+    "unregistered_user_desc"        => "Deze account is automatisch gemaakt zonder wachtwoord. Je kunt een bevestigingsmail sturen om een eigen account te laten aanmaken of hieronder een wachtwoord voor in te stellen.",
+    "send_confirmation_email"       => "Bevestigingsmail sturen",
+    "mark_as_confirmed"             => "Markeer als bevestigd",
+    "password_reset_already"        => "Je heeft al bevestigd dat je eigenaar bent van dit e-mailadres inloggen is nu mogelijk.",
+    "unconfirmed_account"           => "Controleer je e-mail om te bevestigen dat je eigenaar bent van dit e-mailadres.",
     "success_register_desc"         => "Bedankt voor het registreren van een account. Controleer je e-mail om de accountconfiguratie te voltooien.",
     "resend_confirmation_sent"      => "Er is een nieuwe bevestigings-e-mail verzonden die binnen enkele minuten aankomt.",
     "register_confirm_desc"         => "Bedankt voor het bevestigen van het eigendom van je e-mailadres. Voer hieronder een wachtwoord in om het instellen van je account te voltooien .",
@@ -275,12 +294,12 @@ return array(
     /*
      * 2.6.0
      */
-    "continue_to_login"             => "Ga verder naar <a href=':route'>login</a>.",
     "updating_email_address"        => "Om de aanpassing van je e-mailadres te voltooien, klik je op de link die is verzonden naar :email om het eigendom van het nieuwe e-mailadres te bevestigen.",
     "confirmation"                  => "Bevestiging",
     "confirmation_email_in_use"     => "Het e-mailadres wordt al gebruikt door een andere account.",
     "continue_to_login"             => "Ga verder naar <a href=':route'>inloggen</a>.",
     "reset_request_desc"            => "Als er een account is gevonden, ontvangt je binnenkort een e-mail waarmee je wachtwoord opnieuw kunt instellen.",
+    "password_reset_error"          => "De link is mogelijk verlopen. Als je link om wat voor reden dan ook niet werkt, vraag dan een nieuwe aan.",
 
     /*
      * 3.0.0
@@ -320,7 +339,7 @@ return array(
     "logged_in"                     => "Ingelogd",
     "revoke_session_desc"           => "Als je een sessie intrekt, wordt het apparaat afgemeld.",
 
-    /*
+    /**
      * 4.0.0
      */
     "verify_phone_number"           => "Telefoonnummer verifiëren",
@@ -330,6 +349,8 @@ return array(
     "verify_phone_code_error"       => "Code kon niet worden geverifieerd.",
     "logged_in_as"                  => "Ingelogd als :name",
 
+<<<<<<< Updated upstream
+=======
     /*
      * 4.1.0
      */
@@ -405,37 +426,38 @@ return array(
     /*
      * 5.0.0
      */
-    "verified"                      => "Verified",
-    "unverified"                    => "Unverified",
-    "unverified_email_desc"         => "User has not verified ownership of this email address.",
-    "unverified_account"            => "Please check your email to verify ownership of this email address.",
+    "verified"                      => "Geverifieerd",
+    "unverified"                    => "Niet geverifieerd",
+    "unverified_email_desc"         => "De gebruiker heeft het eigendom van dit e-mailadres niet geverifieerd.",
+    "unverified_account"            => "Controleer je e-mail om het eigendom van dit e-mailadres te verifiëren.",
     "changing_email_desc"           => "Als je het e-mailadres wijzigt, moet de gebruiker het eigendom van zijn e-mailadres bevestigen wanneer hij de volgende keer inlogt.",
-    "unregistered_user_desc"        => "Deze account is automatisch gemaakt zonder wachtwoord. Je kunt een bevestigingsmail sturen om een eigen account te laten aanmaken of hieronder een wachtwoord voor in te stellen.",
-    "send_verification_email"       => "Send Verification Email",
-    "mark_as_verified"              => "Mark as Verified",
-    "password_reset_already"        => "Je heeft al bevestigd dat je eigenaar bent van dit e-mailadres inloggen is nu mogelijk.",
-    "verification_email_resent"     => "A new verification email has been sent and should arrive in a few minutes.",
-    "verified_set_password_desc"    => "Thank you for verifying ownership of your email, please enter a password below to finish your account set up.",
-    "thank_you_for_verifying_email" => "Thank you for verifying ownership of your email address.",
+    "unregistered_user_desc"        => "Dit account is automatisch aangemaakt zonder wachtwoord. Je kunt een bevestigingsmail sturen om een eigen account aan te maken of hieronder een wachtwoord instellen.",
+    "send_verification_email"       => "Verzend verificatie-e-mail",
+    "mark_as_verified"              => "Markeer als geverifieerd",
+    "password_reset_already"        => "Je hebt al bevestigd dat je eigenaar bent van dit e-mailadres. Inloggen is nu mogelijk.",
+    "verification_email_resent"     => "Er is een nieuwe verificatie-e-mail verzonden en zou binnen enkele minuten moeten aankomen.",
+    "verified_set_password_desc"    => "Bedankt voor het verifiëren van het eigendom van je e-mailadres. Voer hieronder een wachtwoord in om je accountinstellingen te voltooien.",
+    "thank_you_for_verifying_email" => "Bedankt voor het verifiëren van het eigendom van je e-mailadres.",
     "organisation_domain_desc"      => "Voer elk domein in dat eigendom is van de organisatie. Gebruikers die zich registreren met een e-mailadres dat tot een van die domeinen behoort, worden automatisch aan de organisatie toegevoegd. We raden aan om te verifiëren dat de gebruiker echt deel uitmaakt van de organisatie als hij niet heeft bevestigd dat hij eigenaar is van zijn e-mailadres.",
-    "resend_verification_email"     => "Resend Verification Email",
+    "resend_verification_email"     => "Verzend verificatie-e-mail opnieuw",
     "updating_email_address"        => "Om de aanpassing van je e-mailadres te voltooien, klik je op de link die is verzonden naar :email om het eigendom van het nieuwe e-mailadres te bevestigen.",
-    "email_verification"            => "Email Verification",
-    "email_verification_already_in_use" => "The email address is already in use by another account.",
-    "verification_link_expired"     => "The verification link may have expired. If your link isn't working for any reason, please request a new one.",
-    "user_invited_to_organisation"  => "The user has been invited to the organisation by email, they must click the link and set up a password to complete their account setup.",
-    "invite_user"                   => "Invite User",
-    "organisation_invite_user"      => "Invite user to organisation",
-    "user_already_in_organisation"  => "The user is already part of an organisation.",
-    "invitations"                   => "Invitation|Invitations",
-    "invite_exists"                 => "The user has already been invited.",
-    "success_join"                  => "You are now a member of the organisation :name.",
-    "error_join"                    => "The invitation code could not be found, or has expired.",
-    "verify_to_view_tickets"        => "Please verify all additional email addresses or remove unverified email addresses under your account profile.",
+    "email_verification"            => "E-mailverificatie",
+    "email_verification_already_in_use" => "Het e-mailadres wordt al gebruikt door een ander account.",
+    "verification_link_expired"     => "De verificatielink is mogelijk verlopen. Als je link om welke reden dan ook niet werkt, vraag dan een nieuwe aan.",
+    "user_invited_to_organisation"  => "De gebruiker is per e-mail uitgenodigd voor de organisatie. Ze moeten op de link klikken en een wachtwoord instellen om hun accountinstellingen te voltooien.",
+    "invite_user"                   => "Gebruiker uitnodigen",
+    "organisation_invite_user"      => "Gebruiker uitnodigen voor organisatie",
+    "user_already_in_organisation"  => "De gebruiker maakt al deel uit van een organisatie.",
+    "invitations"                   => "Uitnodiging|Uitnodigingen",
+    "invite_exists"                 => "De gebruiker is al uitgenodigd.",
+    "success_join"                  => "Je bent nu lid van de organisatie :name.",
+    "error_join"                    => "De uitnodigingscode kon niet worden gevonden of is verlopen.",
+    "verify_to_view_tickets"        => "Verifieer alle extra e-mailadressen of verwijder niet-geverifieerde e-mailadressen in je accountprofiel."
 
     /*
      * 5.2.3
      */
     "display_notifications_desc"    => "Het systeem zal waarschuwen wanneer er nieuwe tickets of antwoorden worden aangemaakt, of wanneer andere operators inloggen. Je kunt kiezen tussen bureaubladmeldingen of meldingen in de browser, of deze volledig uitschakelen.",
 
+>>>>>>> Stashed changes
 );
